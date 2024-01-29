@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root{
+    --dawn: #9D4EDD;
+    --morning: #FF9500;
+    --noon: #FFD000;
+    --afternoon: #FF7B00;
+    --night: #3C096C;
+    --textd: #E0AAFF;
+    --textm: #FFD000;
+    --textn: #f6f0ce;
+    --texta: #ffdd00;
+    --textni: #534bf7;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}   
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1300px;
+    height: 900px;
+    border-radius: 30px;
+}
+
+#horario{
+    display: flex;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+#sky{
+    width: 512px;
+    height: 512px;
+    padding: 5rem;
+    border-radius: 10000px;
+}
+
+#img{
+    width: 64px;
+}
+
